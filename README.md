@@ -1,6 +1,6 @@
 # HOW TO RUN THE APP #
 
-## 1. In the terminal, navigate to the folder this file is in, then run:
+## 1. In the terminal, run:
 go build -o main .
 ./main
 
