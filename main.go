@@ -25,7 +25,7 @@ type Receipt struct {
 	Total    string `json:"total"`
 }
 
-// Global map to track all receipt point values passed to the receipt scan function
+// Global map to track all receipt point values
 var receiptPoints map[string]int
 
 /*
@@ -138,7 +138,7 @@ func scanReceipt(context *gin.Context) {
 	)
 }
 
-// Retrieve a receipt's points count using its unique id.
+// Retrieve a receipt's point count using its unique id.
 func getPoints(context *gin.Context) {
 	inputId := context.Param("id")
 	points, exists := receiptPoints[inputId]
