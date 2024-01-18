@@ -8,3 +8,4 @@ go build -o main .
 localhost:9090/receipts/process to process a receipt
 localhost:9090/receipts/{id}/points to get a receipt's points
 # Fetch-Receipt-Scanner
+# Fetch-Receipt-Scanner
